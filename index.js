@@ -19,6 +19,8 @@ module.exports = {
                 en.intercept(req, callback);
             })
         });
+
+        return en;
     },
 
     /**
